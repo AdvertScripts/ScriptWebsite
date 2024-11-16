@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Cool Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            line-height: 1.6;
+        }
+        header {
+            background: #4CAF50;
+            color: white;
+            padding: 1em 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 10px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        main {
+            padding: 20px;
+        }
+        footer {
+            text-align: center;
+            background: #f1f1f1;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        img {
+            margin: 10px;
+            border: 2px solid #4CAF50;
+        }
+    </style>
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            alert("Welcome to My Cool Website!");
+        });
+    </script>
+</head>
+<body>
+    <header>
+        <h1>Welcome to My Cool Website!</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="about">
+            <h2>About</h2>
+            <p>This is a simple website made using the Website Maker tool.</p>
+        </section>
+        <section id="gallery">
+            <h2>Gallery</h2>
+            <p>Check out some cool pictures below:</p>
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image 1">
+            <img src="https://via.placeholder.com/150" alt="Placeholder Image 2">
+        </section>
+        <section id="contact">
+            <h2>Contact</h2>
+            <p>Email us at <a href="mailto:example@example.com">example@example.com</a></p>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Cool Website</p>
+    </footer>
+</body>
+</html>
